@@ -1,0 +1,21 @@
+
+union(){
+    difference(){
+        translate([0,0,-3])
+        linear_extrude(73){
+            polygon([[-3,-3],[-3,27],[31.5,27],[31.5,-3]]);
+        }
+        union(){
+            linear_extrude(72){
+                polygon([[0,0],[0,24],[28.5,24],[28.5,0]]);
+            }
+            translate([0,0,65])
+                linear_extrude(3){
+                    polygon([[8,-4],[8,1],[20.5,1],[20.5,-4]]);
+                }
+        }
+    }
+    linear_extrude(58){
+        polygon([[0,0],[0,5],[28.5,5],[28.5,0]]);
+    }
+}
