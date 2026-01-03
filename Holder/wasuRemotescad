@@ -1,0 +1,10 @@
+difference(){
+    translate([0,0,-35])
+        cube([30,53,70],true);
+    union(){
+        translate([0,0,-37])
+            cube([26,49,70],true);  
+        translate([20,0,-65])
+            cube([26,38,70],true);  
+    }
+}
