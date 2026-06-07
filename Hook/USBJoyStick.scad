@@ -12,13 +12,13 @@ difference() {
 
     translate([55,-33.5,-2])
     linear_extrude(20)
-        square([4.5,12]);
+        square([4.7,12.3]);
 
     translate([10,-27.5,-1])
     cylinder(r=3,h=4);
 
     translate([30,-27.5,-1])
-    cylinder(r=3,h=4);
+    cylinder(r=3,h=4);  
     
     
 }
